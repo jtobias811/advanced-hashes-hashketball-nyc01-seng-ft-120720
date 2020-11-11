@@ -181,3 +181,14 @@ def player_numbers(team)
   end
   players_numbers_list
 end
+
+def player_stats(name)
+  player_hash = {}
+  game_hash.each do |team_position, team_data|
+    team_data[:players].each do |stats|
+      if stats[:name] == name
+        stas.delete(:name)
+        player_stats = stats
+      end
+    end
+  end
