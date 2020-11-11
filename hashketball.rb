@@ -168,8 +168,9 @@ def player_numbers(team)
   players_numbers_list = []
   game_hash.each do |team_position, team_data|
     if team_data[:team_name] == team
-      binding.pry
+      #binding.pry
       team_data[:players].each do |player|
+        binding.pry
         player.each do |key, value|
           if key == :number
             players_numbers_list << value
