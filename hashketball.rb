@@ -158,5 +158,8 @@ def team_colors(team)
   end
 end
 
-def player_numbers(team)
+def team_names
+  game_hash.collect do |team_position, team_data|
+    team_data[:team_name]
+  end
 end
