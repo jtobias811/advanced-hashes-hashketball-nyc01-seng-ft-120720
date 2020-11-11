@@ -157,3 +157,6 @@ def team_colors(team)
     end
   end
 end
+
+def player_numbers(team)
+end
