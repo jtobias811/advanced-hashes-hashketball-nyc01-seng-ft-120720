@@ -154,5 +154,6 @@ def team_colors(team)
     #binding.pry
     if team == team_data[:team_name]
       return team_data[:colors]
+    end
   end
 end
