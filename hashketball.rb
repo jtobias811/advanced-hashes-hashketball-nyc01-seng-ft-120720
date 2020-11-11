@@ -170,7 +170,7 @@ def player_numbers(team)
     if team_data[:team_name] == team
       #binding.pry
       team_data[:players].each do |player|
-        binding.pry
+        #binding.pry
         player.each do |key, value|
           if key == :number
             players_numbers_list << value
