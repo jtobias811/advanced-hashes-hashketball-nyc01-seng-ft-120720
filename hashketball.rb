@@ -131,12 +131,9 @@ end
 # Write code here
 def num_points_scored(name)
   game_hash.each do |team_position, team_data|
-    #binding.pry
     team_data[:players].each do |player|
       if player[:player_name] == name
-        #binding.pry
         return player[:points]
-        binding.pry
       end
     end
   end
