@@ -183,7 +183,7 @@ def player_numbers(team)
 end
 
 def player_stats(name)
-  player_hash = {}
+  #player_hash = {}
   game_hash.each do |team_position, team_data|
     team_data.each do |key, value|
       if key == :players
