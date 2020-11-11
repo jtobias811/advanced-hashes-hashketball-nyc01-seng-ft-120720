@@ -172,4 +172,9 @@ def player_numbers(team)
         player.each do |key, value|
           if key == :number
             players_numbers_list << value
+          end
+        end
+      end
+    end
+  end
 end
