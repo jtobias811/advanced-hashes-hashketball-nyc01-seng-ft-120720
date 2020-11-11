@@ -173,7 +173,7 @@ def player_numbers(team)
         binding.pry
         player.each do |key, value|
           if key == :number
-            value.each do |player|
+            players_numbers_list << value
           end
         end
       end
